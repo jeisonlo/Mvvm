@@ -35,6 +35,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    dataBinding {
+        var enabled = true
+    }
 
     buildFeatures {
         viewBinding = true // Esta es la forma correcta de habilitar viewBinding
